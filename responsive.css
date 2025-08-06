@@ -12,21 +12,10 @@
         padding: 10px;
         color: white;
     }
-    
-    .fa-solid .menu2{
-        display: none;
-    }
-    .fa-solid:hover .menu2 {
-        display: block;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: rgb(113, 81, 81);
-    }
 
-    .fa-solid .menu2 li {
-        width: 100px;
-        padding: 10px;
+    .fa-solid .menu2 {
+        display: none;
+
     }
 
     .fa-solid:hover {
@@ -34,8 +23,25 @@
         border-radius: 50px;
     }
 
+    .fa-solid:hover .menu2 {
+        display: block;
+        height: 990px;
+        position: absolute;
+        background-color: rgb(80, 55, 55);
+        font-size: 15px;
+        top: 0;
+        font-family: serif;
+        list-style: none;
+        padding: 10px 10px;
+    }
 
+    .fa-solid .menu2 li {
+        padding: 10px 0px;
+    }
 
+    .fa-solid .menu2 li:hover {
+        background-color: rgb(70, 55, 55);
+    }
 }
 
 @media only screen and (min-width:600px) and (max-width:760px) {
@@ -49,12 +55,8 @@
     }
 
     .fa-solid .menu2 {
-        display: block;
-        width: 150%;
-        position: absolute;
-        z-index: 999;
         display: none;
-        margin-right: 50px;
+
     }
 
     .fa-solid:hover {
@@ -63,20 +65,27 @@
     }
 
     .fa-solid:hover .menu2 {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
+        display: block;
+        height: 990px;
+        position: absolute;
         background-color: rgb(80, 55, 55);
-        font-size: 15px;
+        top: 0;
         font-family: serif;
         list-style: none;
-        padding: 20px 10px;
-
+        padding: 10px 0px;
     }
 
-    .fa-solid:hover .menu2 svg {
-        color: white;
+    .fa-solid .menu2 li {
+        padding: 10px 0px;
     }
+    .fa-solid .menu2 li span{
+        font-size: 20px;
+    }
+    .fa-solid .menu2 li:hover {
+        background-color: rgb(70, 55, 55);
+    }
+
+
 
 }
 
@@ -98,12 +107,9 @@
     }
 
     .fa-solid .menu2 {
-        display: block;
-        width: 130%;
-        position: absolute;
-        z-index: 999;
         display: none;
-        margin-right: 50px;
+        width: 200px;
+
     }
 
     .fa-solid:hover {
@@ -112,20 +118,28 @@
     }
 
     .fa-solid:hover .menu2 {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
+        display: block;
+        height: 990px;
+        position: absolute;
         background-color: rgb(80, 55, 55);
-        font-size: 13px;
+        font-size: 10px;
+        top: 0;
         font-family: serif;
         list-style: none;
-        padding: 20px 5px;
-
+        padding: 20px 0px;
     }
 
-    .fa-solid:hover .menu2 svg {
-        color: white;
+    .fa-solid .menu2 li {
+        padding: 10px 0px;
     }
+    .fa-solid .menu2 li span{
+        font-size: 18px;
+    }
+    .fa-solid .menu2 li:hover {
+        background-color: rgb(70, 55, 55);
+    }
+
+
 
 }
 
@@ -148,12 +162,8 @@
     }
 
     .fa-solid .menu2 {
-        display: block;
-        width: 130%;
-        position: absolute;
-        z-index: 999;
         display: none;
-        margin-right: 50px;
+
     }
 
     .fa-solid:hover {
@@ -162,19 +172,25 @@
     }
 
     .fa-solid:hover .menu2 {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
+        display: block;
+        height: 990px;
+        position: absolute;
         background-color: rgb(80, 55, 55);
-        font-size: 13px;
+        font-size: 10px;
+        top: 0;
         font-family: serif;
         list-style: none;
-        padding: 20px 5px;
-
+        padding: 10px 0px;
+    }
+    .fa-solid .menu2 li{
+        padding:10px 0px;
+    }
+    .fa-solid .menu2 li:hover{
+        background-color:rgb(70, 55, 55) ;
     }
 
-    .fa-solid:hover .menu2 svg {
-        color: white;
+        .fa-solid .menu2 li span{
+        font-size: 16px;
     }
 
     nav {
