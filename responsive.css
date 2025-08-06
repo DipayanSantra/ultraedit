@@ -4,7 +4,7 @@
     }
 
 
-     .fa-solid span {
+    .fa-solid span {
         display: block;
         position: relative;
         font-size: 25px;
@@ -12,13 +12,21 @@
         padding: 10px;
         color: white;
     }
-
-     .fa-solid .menu2 {
+    
+    .fa-solid .menu2{
+        display: none;
+    }
+    .fa-solid:hover .menu2 {
         display: block;
         position: absolute;
         top: 100%;
         left: 0;
         background-color: rgb(113, 81, 81);
+    }
+
+    .fa-solid .menu2 li {
+        width: 100px;
+        padding: 10px;
     }
 
     .fa-solid:hover {
@@ -79,7 +87,8 @@
         justify-content: center;
         align-items: center;
     }
-        .fa-solid span {
+
+    .fa-solid span {
         display: block;
         position: relative;
         font-size: 25px;
@@ -122,12 +131,13 @@
 
 @media only screen and (min-width:390px) and (max-width:412px) {
 
-     .container section{
+    .container section {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    } 
+    }
+
     .fa-solid span {
         display: block;
         position: relative;
@@ -171,4 +181,3 @@
         background-color: rgb(80, 55, 55);
     }
 }
-
