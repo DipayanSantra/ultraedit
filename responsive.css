@@ -78,9 +78,11 @@
     .fa-solid .menu2 li {
         padding: 10px 0px;
     }
-    .fa-solid .menu2 li span{
-        font-size: 20px;
+
+    .fa-solid .menu2 li span {
+        font-size: 1.3em;
     }
+
     .fa-solid .menu2 li:hover {
         background-color: rgb(70, 55, 55);
     }
@@ -132,16 +134,17 @@
     .fa-solid .menu2 li {
         padding: 10px 0px;
     }
-    .fa-solid .menu2 li span{
-        font-size: 18px;
+
+    .fa-solid .menu2 li span {
+        font-size: 1.4em;
     }
+
     .fa-solid .menu2 li:hover {
         background-color: rgb(70, 55, 55);
     }
 
-
-
 }
+
 @media only screen and (max-width: 400px) and (orientation: portrait) {
     .container section {
         display: flex;
@@ -190,13 +193,14 @@
     }
 
     .fa-solid .menu2 li span {
-        font-size: 14px;
+        font-size: 1.4em;
     }
 
     nav {
         background-color: rgb(80, 55, 55);
     }
 }
+
 @media only screen and (min-width:390px) and (max-width:399px) {
 
     .container section {
@@ -236,21 +240,25 @@
         list-style: none;
         padding: 10px 0px;
     }
-    .fa-solid .menu2 li{
-        padding:10px 0px;
-    }
-    .fa-solid .menu2 li:hover{
-        background-color:rgb(70, 55, 55) ;
+
+    .fa-solid .menu2 li {
+        padding: 10px 0px;
     }
 
-        .fa-solid .menu2 li span{
-        font-size: 16px;
+    .fa-solid .menu2 li:hover {
+        background-color: rgb(70, 55, 55);
+    }
+
+    .fa-solid .menu2 li span {
+        font-size: 1.3em;
+
     }
 
     nav {
         background-color: rgb(80, 55, 55);
     }
 }
+
 @media only screen and (min-width:310px) and (max-width:390px) {
     .container section {
         display: flex;
@@ -299,12 +307,10 @@
     }
 
     .fa-solid .menu2 li span {
-        font-size: 14px;
+        font-size: 1.28em;
     }
 
     nav {
         background-color: rgb(80, 55, 55);
     }
 }
-
-
