@@ -197,3 +197,58 @@
         background-color: rgb(80, 55, 55);
     }
 }
+@media only screen and (min-width:340px) and (max-width:390px) {
+    .container section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-solid span {
+        display: block;
+        position: relative;
+        font-size: 25px;
+        cursor: pointer;
+        padding: 10px;
+        color: white;
+    }
+
+    .fa-solid .menu2 {
+        display: none;
+
+    }
+
+    .fa-solid:hover {
+        background-color: rgb(113, 81, 81);
+        border-radius: 50px;
+    }
+
+    .fa-solid:hover .menu2 {
+        display: block;
+        height: 990px;
+        position: absolute;
+        background-color: rgb(80, 55, 55);
+        font-size: 10px;
+        top: 0;
+        font-family: serif;
+        list-style: none;
+        padding: 10px 0px;
+    }
+
+    .fa-solid .menu2 li {
+        padding: 10px 0px;
+    }
+
+    .fa-solid .menu2 li:hover {
+        background-color: rgb(70, 55, 55);
+    }
+
+    .fa-solid .menu2 li span {
+        font-size: 14px;
+    }
+
+    nav {
+        background-color: rgb(80, 55, 55);
+    }
+}
