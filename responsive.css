@@ -1,0 +1,192 @@
+@media only screen and (max-width:900px) {
+    .right .menu {
+        display: none;
+    }
+
+
+     .fa-solid span {
+        display: block;
+        position: relative;
+        font-size: 25px;
+        cursor: pointer;
+        padding: 10px;
+        color: white;
+    }
+
+     .fa-solid .menu2 {
+        display: block;
+        width: 200%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        margin-right: 50px;
+    }
+
+    .fa-solid:hover {
+        background-color: rgb(113, 81, 81);
+        border-radius: 50px;
+    }
+
+     .fa-solid:hover .menu2 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        background-color: rgb(80, 55, 55);
+        font-size: 18px;
+        font-family: serif;
+        list-style: none;
+        padding: 20px 10px;
+
+    }
+     .fa-solid:hover .menu2 li{
+        display: grid;
+    }
+   .fa-solid:hover .menu2 svg {
+        color: white;
+    }
+
+
+}
+
+@media only screen and (min-width:600px) and (max-width:760px) {
+    .fa-solid span {
+        display: block;
+        position: relative;
+        font-size: 25px;
+        cursor: pointer;
+        padding: 10px;
+        color: white;
+    }
+
+    .fa-solid .menu2 {
+        display: block;
+        width: 150%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        margin-right: 50px;
+    }
+
+    .fa-solid:hover {
+        background-color: rgb(113, 81, 81);
+        border-radius: 50px;
+    }
+
+    .fa-solid:hover .menu2 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        background-color: rgb(80, 55, 55);
+        font-size: 15px;
+        font-family: serif;
+        list-style: none;
+        padding: 20px 10px;
+
+    }
+
+    .fa-solid:hover .menu2 svg {
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width:412px) and (max-width:599px) {
+    .container .sub-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        .fa-solid span {
+        display: block;
+        position: relative;
+        font-size: 25px;
+        cursor: pointer;
+        padding: 10px;
+        color: white;
+    }
+
+    .fa-solid .menu2 {
+        display: block;
+        width: 130%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        margin-right: 50px;
+    }
+
+    .fa-solid:hover {
+        background-color: rgb(113, 81, 81);
+        border-radius: 50px;
+    }
+
+    .fa-solid:hover .menu2 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        background-color: rgb(80, 55, 55);
+        font-size: 13px;
+        font-family: serif;
+        list-style: none;
+        padding: 20px 5px;
+
+    }
+
+    .fa-solid:hover .menu2 svg {
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width:390px) and (max-width:412px) {
+
+     .container section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .fa-solid span {
+        display: block;
+        position: relative;
+        font-size: 25px;
+        cursor: pointer;
+        padding: 10px;
+        color: white;
+    }
+
+    .fa-solid .menu2 {
+        display: block;
+        width: 130%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        margin-right: 50px;
+    }
+
+    .fa-solid:hover {
+        background-color: rgb(113, 81, 81);
+        border-radius: 50px;
+    }
+
+    .fa-solid:hover .menu2 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        background-color: rgb(80, 55, 55);
+        font-size: 13px;
+        font-family: serif;
+        list-style: none;
+        padding: 20px 5px;
+
+    }
+
+    .fa-solid:hover .menu2 svg {
+        color: white;
+    }
+
+    nav {
+        background-color: rgb(80, 55, 55);
+    }
+}
+
