@@ -1,95 +1,42 @@
+nav .fa {
+    display: none;
+}
+
 @media only screen and (max-width:900px) {
-    .right .menu {
-        display: none;
-    }
 
-
-    .fa-solid span {
+    .right ul li {
         display: block;
-        position: relative;
-        font-size: 25px;
-        cursor: pointer;
-        padding: 10px;
-        color: white;
     }
 
-    .fa-solid .menu2 {
-        display: none;
-
+    .right ul {
+        padding: 30px;
     }
 
-    .fa-solid:hover {
-        background-color: rgb(113, 81, 81);
-        border-radius: 50px;
-    }
-
-    .fa-solid:hover .menu2 {
-        display: block;
-        height: 990px;
-        position: absolute;
+    .right {
+        width: 0;
+        height: 100vh;
         background-color: rgb(80, 55, 55);
-        font-size: 15px;
+        overflow: hidden;
+        position: fixed;
         top: 0;
-        font-family: serif;
-        list-style: none;
-        padding: 10px 10px;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        transition: width 1s ease;
+
     }
 
-    .fa-solid .menu2 li {
-        padding: 10px 0px;
+    nav .fa {
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    nav:hover .right {
+        width: 150px;
     }
 
-    .fa-solid .menu2 li:hover {
-        background-color: rgb(70, 55, 55);
-    }
 }
 
-@media only screen and (min-width:600px) and (max-width:760px) {
-    .fa-solid span {
-        display: block;
-        position: relative;
-        font-size: 25px;
-        cursor: pointer;
-        padding: 10px;
-        color: white;
-    }
-
-    .fa-solid .menu2 {
-        display: none;
-
-    }
-
-    .fa-solid:hover {
-        background-color: rgb(113, 81, 81);
-        border-radius: 50px;
-    }
-
-    .fa-solid:hover .menu2 {
-        display: block;
-        height: 990px;
-        position: absolute;
-        background-color: rgb(80, 55, 55);
-        top: 0;
-        font-family: serif;
-        list-style: none;
-        padding: 10px 0px;
-    }
-
-    .fa-solid .menu2 li {
-        padding: 10px 0px;
-    }
-
-    .fa-solid .menu2 li span {
-        font-size: 1.3em;
-    }
-
-    .fa-solid .menu2 li:hover {
-        background-color: rgb(70, 55, 55);
-    }
-
-
-
-}
 
 @media only screen and (min-width:412px) and (max-width:599px) {
     .container .sub-container {
@@ -99,49 +46,6 @@
         align-items: center;
     }
 
-    .fa-solid span {
-        display: block;
-        position: relative;
-        font-size: 25px;
-        cursor: pointer;
-        padding: 10px;
-        color: white;
-    }
-
-    .fa-solid .menu2 {
-        display: none;
-        width: 200px;
-
-    }
-
-    .fa-solid:hover {
-        background-color: rgb(113, 81, 81);
-        border-radius: 50px;
-    }
-
-    .fa-solid:hover .menu2 {
-        display: block;
-        height: 990px;
-        position: absolute;
-        background-color: rgb(80, 55, 55);
-        font-size: 10px;
-        top: 0;
-        font-family: serif;
-        list-style: none;
-        padding: 20px 0px;
-    }
-
-    .fa-solid .menu2 li {
-        padding: 10px 0px;
-    }
-
-    .fa-solid .menu2 li span {
-        font-size: 1.4em;
-    }
-
-    .fa-solid .menu2 li:hover {
-        background-color: rgb(70, 55, 55);
-    }
 
 }
 
@@ -153,52 +57,6 @@
         align-items: center;
     }
 
-    .fa-solid span {
-        display: block;
-        position: relative;
-        font-size: 25px;
-        cursor: pointer;
-        padding: 10px;
-        color: white;
-    }
-
-    .fa-solid .menu2 {
-        display: none;
-
-    }
-
-    .fa-solid:hover {
-        background-color: rgb(113, 81, 81);
-        border-radius: 50px;
-    }
-
-    .fa-solid:hover .menu2 {
-        display: block;
-        height: 990px;
-        position: absolute;
-        background-color: rgb(80, 55, 55);
-        font-size: 10px;
-        top: 0;
-        font-family: serif;
-        list-style: none;
-        padding: 10px 0px;
-    }
-
-    .fa-solid .menu2 li {
-        padding: 10px 0px;
-    }
-
-    .fa-solid .menu2 li:hover {
-        background-color: rgb(70, 55, 55);
-    }
-
-    .fa-solid .menu2 li span {
-        font-size: 1.4em;
-    }
-
-    nav {
-        background-color: rgb(80, 55, 55);
-    }
 }
 
 @media only screen and (min-width:390px) and (max-width:399px) {
@@ -210,53 +68,7 @@
         align-items: center;
     }
 
-    .fa-solid span {
-        display: block;
-        position: relative;
-        font-size: 25px;
-        cursor: pointer;
-        padding: 10px;
-        color: white;
-    }
 
-    .fa-solid .menu2 {
-        display: none;
-
-    }
-
-    .fa-solid:hover {
-        background-color: rgb(113, 81, 81);
-        border-radius: 50px;
-    }
-
-    .fa-solid:hover .menu2 {
-        display: block;
-        height: 990px;
-        position: absolute;
-        background-color: rgb(80, 55, 55);
-        font-size: 10px;
-        top: 0;
-        font-family: serif;
-        list-style: none;
-        padding: 10px 0px;
-    }
-
-    .fa-solid .menu2 li {
-        padding: 10px 0px;
-    }
-
-    .fa-solid .menu2 li:hover {
-        background-color: rgb(70, 55, 55);
-    }
-
-    .fa-solid .menu2 li span {
-        font-size: 1.3em;
-
-    }
-
-    nav {
-        background-color: rgb(80, 55, 55);
-    }
 }
 
 @media only screen and (min-width:310px) and (max-width:390px) {
@@ -267,50 +79,4 @@
         align-items: center;
     }
 
-    .fa-solid span {
-        display: block;
-        position: relative;
-        font-size: 25px;
-        cursor: pointer;
-        padding: 10px;
-        color: white;
-    }
-
-    .fa-solid .menu2 {
-        display: none;
-
-    }
-
-    .fa-solid:hover {
-        background-color: rgb(113, 81, 81);
-        border-radius: 50px;
-    }
-
-    .fa-solid:hover .menu2 {
-        display: block;
-        height: 990px;
-        position: absolute;
-        background-color: rgb(80, 55, 55);
-        font-size: 10px;
-        top: 0;
-        font-family: serif;
-        list-style: none;
-        padding: 10px 0px;
-    }
-
-    .fa-solid .menu2 li {
-        padding: 10px 0px;
-    }
-
-    .fa-solid .menu2 li:hover {
-        background-color: rgb(70, 55, 55);
-    }
-
-    .fa-solid .menu2 li span {
-        font-size: 1.28em;
-    }
-
-    nav {
-        background-color: rgb(80, 55, 55);
-    }
 }
